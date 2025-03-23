@@ -16,9 +16,6 @@ Setup
 ## 🚀 Project Usage Explanation
 Usage
 
-## 📖 About the Project
-About
-
 ## 💻 Technologies Used
 - Programming Language: [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Java](https://www.java.com/) [PHP](https://www.php.net/) [Python](https://www.python.org/)
 - Tested OS: [Ubuntu](https://ubuntu.com/)
