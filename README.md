@@ -5,24 +5,24 @@
 Simple Windows Script to enable USB Tether in your phone through your PC.
 
 ## 📝 Technology Explanation
-Explanation
+This script uses **ADB** (Android Debug Bridge) to communicate with the phone and execute SVC Shell commands.
 
 ## 📋 Prerequisites
-Prerequisites
+To run ADB commands, you'll need the [platform tools SDK](https://developer.android.com/tools/releases/platform-tools).\
+You must either place the script in the same folder as `adb.exe` or to put it in the PATH so you can use ADB commands anywhere in your system.
 
 ## 🛠️ Setup
-Setup
+In your phone, unlock the developer options (the method to unlock varies in each Android version) and enable `USB Debugging`, then connect your phone to your PC with an USB cable.
+
+Install the requisites and execute the script.
+
+You can also add a shortcut of the script on the startup programs so it opens with Windows.
 
 ## 🚀 Project Usage Explanation
-Usage
+The script searches for Android devices connected via USB and if it doesn't find any in 5 tries, it closes, but if it does, it enables USB Tethering.
 
 ## 💻 Technologies Used
-- Programming Language: [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Java](https://www.java.com/) [PHP](https://www.php.net/) [Python](https://www.python.org/)
-- Tested OS: [Ubuntu](https://ubuntu.com/)
-- Framework: [ASP.NET Core](https://dotnet.microsoft.com/en-us/apps/aspnet) (Project built with [.Net](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet) Framework)
-- Template: Empty Views Activity
-- Android API:
-- Libraries:
-- NuGet Packages:
-- Other:
-- Recommended IDE: [Visual Studio](https://visualstudio.microsoft.com/) [NetBeans](https://netbeans.apache.org/front/main/index.html) [VS Code](https://code.visualstudio.com/) [Gedit](https://help.gnome.org/users/gedit/stable/gedit-quickstart.html.en) [Android Studio](https://developer.android.com/studio)
+- Programming Language: [Batchfile](https://en.wikipedia.org/wiki/Batch_file)
+- Tested OS: [Windows 10](https://www.microsoft.com/es-es/software-download/windows10)
+- Other: [ADB platform Tools SDK](https://developer.android.com/tools/releases/platform-tools)
+- Recommended IDE: [Windows Notepad](https://apps.microsoft.com/detail/9msmlrh6lzf3?hl=en-ES&gl=EN)
